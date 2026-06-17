@@ -195,9 +195,9 @@ else()
 endif()
 
 
-set(CSDVIRT_LIBRARY /home/flax/csd_bench/tools/virt/lib/libCSDVirt.so)
-include_directories("/home/flax/csd_bench/tools/virt")
-include_directories("/home/flax/csd_bench/tools/virt/lib")
+set(CSDVIRT_LIBRARY /home/flax/FLAX/src/lib/libCSDVirt.so)
+include_directories("/home/flax/FLAX/src")
+include_directories("/home/flax/FLAX/src/lib")
 list(APPEND THIRDPARTY_LIBS ${CSDVIRT_LIBRARY})
 
 option(WITH_MD_LIBRARY "build with MD" ON)
